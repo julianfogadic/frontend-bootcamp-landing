@@ -4,8 +4,8 @@ This is a modern, responsive landing page for a frontend bootcamp, built with HT
 
 ## Features
 
-- **Modern Design**: Clean, professional aesthetic with smooth gradients and micro-interactions.
-- **Dark Mode**: Toggle between light and dark modes with a persistent setting.
+- **Modern Design**: Clean and modern design with subtle animations that make browsing enjoyable.
+- **Dark Mode**: I added a dark mode toggle in the header — click it to switch themes and see it in action.
 - **Responsive Layout**: Fully adaptive design for desktop, tablet, and mobile devices.
 - **Smooth Scrolling**: Animated transitions for internal page navigation.
 - **Interactive Elements**: Hover effects, button animations, and a sticky header.
@@ -18,15 +18,15 @@ This is a modern, responsive landing page for a frontend bootcamp, built with HT
 
 ## Getting Started
 
-### Prerequisites
+### What you need
 
 - A modern web browser (Chrome, Firefox, Safari, Edge).
 
-### Installation
+### How to run it
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/julianfogadic/frontend-bootcamp-landing.git
    cd frontend-bootcamp-landing
    ```
 
@@ -36,7 +36,7 @@ This is a modern, responsive landing page for a frontend bootcamp, built with HT
    ```
    (Or simply double-click the file).
 
-## Usage
+## How it works
 
 - Click the **"Toggle Dark Mode"** button in the header to switch between light and dark themes.
 - Navigate through the sections using the links in the navigation bar.
