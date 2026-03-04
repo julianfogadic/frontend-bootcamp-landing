@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Bootcamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +16,7 @@
 
     <header class="header">
         <div class="container nav">
-            <h1 class="logo">Agency</h1>
+            <h1 class="logo">Frontend Bootcamp</h1>
             <nav class="nav-links" id="navLinks">
                 <a href="#services">Services</a>
                 <a href="#about">About</a>
@@ -22,14 +26,14 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="container">
             <h2 class="hero-title">Welcome to Our Agency</h2>
             <p class="hero-subtitle">We provide top-notch services to help you succeed.</p>
         </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
@@ -52,7 +56,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Us</h2>
             <p class="about-text">We are a team of passionate professionals dedicated to helping you achieve your
@@ -61,7 +65,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
             <p class="contact-text">Ready to take your business to the next level? Let's connect and discuss how we can
@@ -70,24 +74,13 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="container">
             <p class="footer-text">&copy; 2023 Agency. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Toggle dark mode
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        const body = document.body;
-
-        darkModeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-        });
-    </script>
-
-
 
 </body>
 
