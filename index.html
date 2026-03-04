@@ -17,6 +17,7 @@
                 <a href="#services">Services</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
+                <button id="darkModeToggle">Toggle Dark Mode</button>
             </nav>
         </div>
     </header>
@@ -74,6 +75,19 @@
             <p class="footer-text">&copy; 2023 Agency. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Toggle dark mode
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+
+
 
 </body>
 

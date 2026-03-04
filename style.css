@@ -151,3 +151,45 @@ nav a:hover {
     font-size: 1.2rem;
     color: #666;
 }
+
+/* ========================================
+   Dark Mode
+   ======================================== */
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #2a2a2a;
+}
+
+.dark-mode .hero {
+    background-color: #2a2a2a;
+}
+
+.dark-mode .service-card {
+    background-color: #2a2a2a;
+}
+
+.dark-mode .footer {
+    background-color: #2a2a2a;
+}
+
+.dark-mode nav a {
+    color: #fff;
+}
+
+.dark-mode nav a:hover {
+    color: #ddd;
+}
+
+.dark-mode .contact-button {
+    background-color: #fff;
+    color: #333;
+}
+
+.dark-mode .contact-button:hover {
+    background-color: #ddd;
+}
